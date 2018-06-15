@@ -18,9 +18,15 @@
     <ClCompile Include="..\..\Code\Client\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Code\Client\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Code\Client\ClientData.h">
+    <ClInclude Include="..\..\Code\Client\ClientState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\Client\Application.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

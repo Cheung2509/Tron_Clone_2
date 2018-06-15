@@ -86,9 +86,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Code\Client\main.cpp" />
+    <ClCompile Include="..\..\Code\Client\Application.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Code\Client\ClientData.h" />
+    <ClInclude Include="..\..\Code\Client\Application.h" />
+    <ClInclude Include="..\..\Code\Client\ClientState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
