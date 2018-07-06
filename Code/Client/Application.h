@@ -2,6 +2,7 @@
 
 #include <memory>
 #include <thread>
+#include <atomic>
 
 #include <SFML\Graphics.hpp>
 
@@ -20,7 +21,7 @@ private:
 	void render();
 
 private:
-	std::unique_ptr<sf::RenderWindow> m_renderWindow =  nullptr;
+	std::atomic<sf::RenderWindow*> m_renderWindow =  nullptr;
 	std::unique_ptr<sf::Event> m_events = nullptr;
 
 	ClientState state = ClientState::CS_MENU;
