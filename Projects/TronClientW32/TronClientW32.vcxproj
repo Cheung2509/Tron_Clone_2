@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Code\Client\Application.h" />
+    <ClInclude Include="..\..\Code\Client\ClientData.h" />
     <ClInclude Include="..\..\Code\Client\ClientState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
