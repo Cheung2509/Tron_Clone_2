@@ -16,7 +16,7 @@ struct ClientData
 	sf::Time m_deltaTime;
 
 	//Destructor to fee memory
-	inline ~ClientData()
+	~ClientData()
 	{
 		if (m_renderWindow.load())
 		{
