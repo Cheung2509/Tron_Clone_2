@@ -1,4 +1,6 @@
 #pragma once
+#include <SFML\System.hpp>
+
 namespace sf {
 	class Packet;
 }
