@@ -13,23 +13,14 @@ Application::Application()
 
 	m_clientData->m_events.store(new sf::Event());
 
+	//Test Object
 	testShape.setRadius(100.0f);
 	testShape.setFillColor(sf::Color::Green);
 }
 
 Application::~Application()
 {
-	if (m_clientData->m_renderWindow.load())
-	{
-		delete m_clientData->m_renderWindow.load();
-		m_clientData->m_renderWindow = nullptr;
-	}
 
-	if (m_clientData->m_events.load())
-	{
-		delete m_clientData->m_events.load();
-		m_clientData->m_events = nullptr;
-	}
 }
 
 void Application::runApplication()
